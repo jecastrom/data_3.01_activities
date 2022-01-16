@@ -195,7 +195,7 @@ WHERE
     district_id IS NULL;
 ```
 
-image::https://user-images.githubusercontent.com/63274055/149675647-3b742c85-ac43-4975-8aeb-bf4991f014cf.png[width=800]
+image::https://user-images.githubusercontent.com/63274055/149675647-3b742c85-ac43-4975-8aeb-bf4991f014cf.png[width=600]
 
 == Return clients to `Strakonice`.
 
