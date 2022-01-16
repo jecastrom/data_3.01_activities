@@ -89,7 +89,34 @@ image::https://user-images.githubusercontent.com/63274055/149660661-c2b86f0f-0c8
 ''''
 ====
 
-== Are there districts with no clients? Move all clients from `Strakonice` to a new district with `district_id = 100`.
+== Are there districts with no clients?
+
+`*_Answer:_*`
+
+```sql
+SELECT
+    a.district_id AS district_id,
+    b.A2 AS district_name,
+    count(a.client_id) AS number_of_clients
+FROM
+    `client` a
+    INNER JOIN district b ON a.district_id = b.A1
+GROUP BY
+    1
+HAVING
+    number_of_clients <= 1
+ORDER BY
+    3 DESC;
+
+```
+
+`*_All districts have customers_*`
+
+image::https://user-images.githubusercontent.com/63274055/149661910-0279de72-04d8-46ad-a1a8-720fcfa9930b.png[width=800]
+
+
+
+* Move all clients from `Strakonice` to a new district with `district_id = 100`.
 
 `*_Answer:_*`
 
