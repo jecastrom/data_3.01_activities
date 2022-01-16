@@ -118,7 +118,7 @@ image::https://user-images.githubusercontent.com/63274055/149661910-0279de72-04d
 ''''
 ====
 
-* Move all clients from `Strakonice` to a new district with `district_id = 100`.
+== Move all clients from `Strakonice` to a new district with `district_id = 100`
 
 `*_Answer:_*`
 
