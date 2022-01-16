@@ -71,6 +71,7 @@ toc::[]
 
 ```sql
 SELECT
+    a.district_id AS district_id,
     b.A2 AS district_name,
     count(a.client_id) AS number_of_clients
 FROM
@@ -79,8 +80,7 @@ FROM
 GROUP BY
     1
 ORDER BY
-    2 DESC
-LIMIT 10;
+    3 DESC;
 
 ```
 image::https://user-images.githubusercontent.com/63274055/149657353-5da61a22-d4ac-4b1d-a9f0-c993be0ed595.png[width=600]

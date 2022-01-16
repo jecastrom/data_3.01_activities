@@ -2,6 +2,7 @@
 -- Activity 1
 -- Get the number of clients by district, returning district name.
 SELECT
+    a.district_id AS district_id,
     b.A2 AS district_name,
     count(a.client_id) AS number_of_clients
 FROM
@@ -10,4 +11,4 @@ FROM
 GROUP BY
     1
 ORDER BY
-    2 DESC;
+    3 DESC;
