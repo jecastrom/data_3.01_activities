@@ -114,7 +114,9 @@ ORDER BY
 
 image::https://user-images.githubusercontent.com/63274055/149661910-0279de72-04d8-46ad-a1a8-720fcfa9930b.png[width=800]
 
-
+====
+''''
+====
 
 * Move all clients from `Strakonice` to a new district with `district_id = 100`.
 
