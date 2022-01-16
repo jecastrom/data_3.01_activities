@@ -197,6 +197,14 @@ WHERE
 
 image::https://user-images.githubusercontent.com/63274055/149675647-3b742c85-ac43-4975-8aeb-bf4991f014cf.png[width=600]
 
+_To spot clients with the wrong `district_id` we have to consider the following:_
+
+_In this database, there are no enforced relationships between the tables with foreign keys. In the `client` table, the `district_id` column is independent from the `A1` column on the `district` table which holds the district_id, so there is redundancy of data here. So the district_id´s are 77, from 1 to 77._
+_If there was a typo or an error on the client record, and the error lies from the range between 1 to 77, there is no way to spot the error._
+
+_However, is the error lies outside this range, we can spot the error with the following query:_
+
+
 == Return clients to `Strakonice`.
 
 
