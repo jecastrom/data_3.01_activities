@@ -122,11 +122,50 @@ image::https://user-images.githubusercontent.com/63274055/149661910-0279de72-04d
 
 `*_Answer:_*`
 
-```sql
+First I will insert a new district on the district table with district_id = 100 and roughly half of the values:
 
+```sql
+INSERT INTO
+    district
+VALUES
+    (
+        100,
+        'New Strakonice',
+        'south Bohemia',
+        35323,
+        47,
+        7,
+        1,
+        1,
+        2,
+        29.2,
+        8541,
+        1.32,
+        1.82,
+        60,
+        781,
+        771
+    );
 ```
 
-image::path[width=800]
+image::https://user-images.githubusercontent.com/63274055/149666902-b7bb6de9-8147-4524-8228-f1b633f46376.png[width=800]
+
+
+Next I update the `district_id` column on the `client` table only for those customers with the `district_id` = 20 which is `Strakonice`:
+
+
+```sql
+UPDATE
+    `client`
+SET
+    district_id = 100
+WHERE
+    district_id = 20;
+```
+
+image::https://user-images.githubusercontent.com/63274055/149667896-4b742595-5ff9-452a-a4ea-a506c77e3b62.png[width=800]
+
+
 
 == How would you spot clients with wrong or missing `district_id`?
 

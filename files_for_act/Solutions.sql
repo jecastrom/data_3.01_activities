@@ -28,3 +28,32 @@ HAVING
     number_of_clients <= 1
 ORDER BY
     3 DESC;
+--
+INSERT INTO
+    district
+VALUES
+    (
+        100,
+        'New Strakonice',
+        'south Bohemia',
+        35323,
+        47,
+        7,
+        1,
+        1,
+        2,
+        29.2,
+        8541,
+        1.32,
+        1.82,
+        60,
+        781,
+        771
+    );
+--
+UPDATE
+    `client`
+SET
+    district_id = 100
+WHERE
+    district_id = 20;
