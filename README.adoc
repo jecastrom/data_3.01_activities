@@ -176,7 +176,7 @@ WHERE
     district_id = 20;
 ```
 
-image::https://user-images.githubusercontent.com/63274055/149667896-4b742595-5ff9-452a-a4ea-a506c77e3b62.png[width=800]
+image::https://user-images.githubusercontent.com/63274055/149667896-4b742595-5ff9-452a-a4ea-a506c77e3b62.png[width=600]
 
 
 
