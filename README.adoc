@@ -112,7 +112,7 @@ ORDER BY
 
 `*_All districts have customers_*`
 
-image::https://user-images.githubusercontent.com/63274055/149661910-0279de72-04d8-46ad-a1a8-720fcfa9930b.png[width=800]
+image::https://user-images.githubusercontent.com/63274055/149661910-0279de72-04d8-46ad-a1a8-720fcfa9930b.png[width=600]
 
 ====
 ''''
