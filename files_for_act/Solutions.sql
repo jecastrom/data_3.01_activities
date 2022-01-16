@@ -64,3 +64,10 @@ FROM
     district
 WHERE
     a1 = 100;
+--
+SELECT
+    *
+FROM
+    bank.client
+WHERE
+    district_id IS NULL;
