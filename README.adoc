@@ -122,7 +122,7 @@ image::https://user-images.githubusercontent.com/63274055/149661910-0279de72-04d
 
 `*_Answer:_*`
 
-First I will insert a new district on the district table with district_id = 100 and roughly half of the values:
+First I will insert a new district on the district table named `New Strakonice` with district_id = 100 and roughly half of the values:
 
 ```sql
 INSERT INTO
