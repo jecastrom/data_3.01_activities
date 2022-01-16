@@ -57,3 +57,10 @@ SET
     district_id = 100
 WHERE
     district_id = 20;
+--
+SELECT
+    *
+FROM
+    district
+WHERE
+    a1 = 100;

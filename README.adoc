@@ -150,6 +150,19 @@ VALUES
 
 image::https://user-images.githubusercontent.com/63274055/149666902-b7bb6de9-8147-4524-8228-f1b633f46376.png[width=800]
 
+Checking the insert with a select statement:
+
+```sql
+SELECT
+    *
+FROM
+    district
+WHERE
+    a1 = 100;
+```
+
+image::https://user-images.githubusercontent.com/63274055/149668296-d7273d90-c4a1-46c7-9fd6-ba93693177c4.png[width=600]
+
 
 Next I update the `district_id` column on the `client` table only for those customers with the `district_id` = 20 which is `Strakonice`:
 
