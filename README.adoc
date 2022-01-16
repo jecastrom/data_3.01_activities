@@ -148,7 +148,7 @@ VALUES
     );
 ```
 
-image::https://user-images.githubusercontent.com/63274055/149666902-b7bb6de9-8147-4524-8228-f1b633f46376.png[width=800]
+image::https://user-images.githubusercontent.com/63274055/149666902-b7bb6de9-8147-4524-8228-f1b633f46376.png[width=600]
 
 Checking the insert with a select statement:
 
