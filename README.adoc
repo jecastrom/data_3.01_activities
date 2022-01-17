@@ -4,7 +4,7 @@
 :image-url-ironhack: https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png
 :my-name: Jorge Castro DAPT NOV2021
 :description: SQL queries Activities
-//:script-url: ADD SCRIPT URL HERE 
+:rel-cont-url: https://github.com/jecastrom/lab-sql-join
 :toc:
 :toc-title: Activities | Description: Keep working on the bank database.
 :toc-placement!:
@@ -85,6 +85,10 @@ ORDER BY
 ```
 image::https://user-images.githubusercontent.com/63274055/149660661-c2b86f0f-0c8d-40c5-add3-14f44de69264.png[width=600]
 
+xref:3-01-Activity-1-to-4[Top Section]
+
+xref:Count-how-many-clients-do-we-have-per-region-and-district[Bottom section]
+
 ====
 ''''
 ====
@@ -113,6 +117,11 @@ ORDER BY
 `*_All districts have customers_*`
 
 image::https://user-images.githubusercontent.com/63274055/149661910-0279de72-04d8-46ad-a1a8-720fcfa9930b.png[width=600]
+
+xref:3-01-Activity-1-to-4[Top Section]
+
+xref:Count-how-many-clients-do-we-have-per-region-and-district[Bottom section]
+
 
 ====
 ''''
@@ -178,6 +187,11 @@ WHERE
 
 image::https://user-images.githubusercontent.com/63274055/149667896-4b742595-5ff9-452a-a4ea-a506c77e3b62.png[width=600]
 
+xref:3-01-Activity-1-to-4[Top Section]
+
+xref:Count-how-many-clients-do-we-have-per-region-and-district[Bottom section]
+
+
 
 
 == How would you spot clients with wrong or missing `district_id`?
@@ -240,6 +254,11 @@ WHERE
 ```
 image::https://user-images.githubusercontent.com/63274055/149683797-79a54499-2dc5-47b7-840b-12fb300e91e7.png[width=600]
 
+xref:3-01-Activity-1-to-4[Top Section]
+
+xref:Count-how-many-clients-do-we-have-per-region-and-district[Bottom section]
+
+
 == Return clients to `Strakonice`.
 
 `*_Answer:_*`
@@ -300,6 +319,12 @@ LIMIT
 
 image::https://user-images.githubusercontent.com/63274055/149823122-45481c29-6c7f-4973-8dc5-af199a8531e1.png[width=600]
 
+xref:3-01-Activity-1-to-4[Top Section]
+
+xref:Count-how-many-clients-do-we-have-per-region-and-district[Bottom section]
+
+
+
 == Count how many clients do we have per region and district
 
 * How many clients do we have per 10000 inhabitants?
@@ -321,6 +346,11 @@ ORDER BY
 ```
 
 image::https://user-images.githubusercontent.com/63274055/149829492-7fdbfb8e-3a6e-45b9-b70c-8615c17816ef.png[width=600]
+
+xref:3-01-Activity-1-to-4[Top Section]
+
+xref:Count-how-many-clients-do-we-have-per-region-and-district[Bottom section]
+
 
 
 ====
@@ -346,6 +376,9 @@ LIMIT
 
 image::https://user-images.githubusercontent.com/63274055/149829932-44bb8260-8a24-4268-982c-afcb80bf86e0.png[width=600]
 
+xref:3-01-Activity-1-to-4[Top Section]
+
+xref:Count-how-many-clients-do-we-have-per-region-and-district[Bottom section]
 
 `*_How many clients do we have per 10000 inhabitants?:_*`
 
@@ -376,7 +409,7 @@ image::https://user-images.githubusercontent.com/63274055/149838031-5353832a-7b3
 ====
 
 
-{script-url}[Solutions script only]
+{rel-cont-url}[Related content: Lab 9 SQL Joins]
 
 ====
 ''''
