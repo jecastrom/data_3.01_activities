@@ -133,3 +133,20 @@ ORDER BY
     1 DESC
 LIMIT
     10;
+--
+SELECT
+    b.A3 AS region,
+    b.A2 AS district,
+    b.A4 AS total_population,
+    floor((count(a.client_id) / A4) * 10000) AS number_of_clients_per_10000_people
+FROM
+    client a
+    INNER JOIN district b ON a.district_id = b.A1
+GROUP BY
+    1,
+    2,
+    3
+ORDER BY
+    3 DESC
+LIMIT
+    5;
