@@ -306,7 +306,7 @@ image::https://user-images.githubusercontent.com/63274055/149823122-45481c29-6c7
 
 `*_Answer:_*`
 
-`*Number of clients by region:_*`
+`*_Number of clients by region:_*`
 ```sql
 SELECT
     count(a.client_id) AS number_of_clients,
@@ -327,7 +327,7 @@ image::https://user-images.githubusercontent.com/63274055/149829492-7fdbfb8e-3a6
 ''''
 ====
 
-`*Number of clients by district:_*`
+`*_Number of clients by district:_*`
 
 ```sql
 SELECT
