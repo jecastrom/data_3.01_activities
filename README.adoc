@@ -308,7 +308,7 @@ image::path[width=800]
 
 //bla bla blafootnote:[{fn-xxx}]
 
-xref:3.01-Activity-1-to-4[Top Section]
+xref:3-01-Activity-1-to-4[Top Section]
 
 xref:Count-how-many-clients-do-we-have-per-region-and-district[Bottom section]
 
