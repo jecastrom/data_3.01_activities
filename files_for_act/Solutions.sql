@@ -120,3 +120,16 @@ GROUP BY
     2
 ORDER BY
     1 DESC;
+--
+SELECT
+    count(a.client_id) AS number_of_clients,
+    b.A2 AS district
+FROM
+    `client` a
+    INNER JOIN district b ON a.district_id = b.A1
+GROUP BY
+    2
+ORDER BY
+    1 DESC
+LIMIT
+    10;
