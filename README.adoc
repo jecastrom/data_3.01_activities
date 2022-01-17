@@ -198,7 +198,7 @@ xref:Count-how-many-clients-do-we-have-per-region-and-district[Bottom section]
 
 `*_Answer:_*`
 
-_To spot clients with missing `district_id`: (I have inserted a customer with a null district_id). It is important to also look for empty spaces (`' '`). However as empty spaces are strings, it does not apply to the district_id column as the data type of this column is `int`._
+_To spot clients with missing `district_id`: (I have inserted a customer with a null district_id and another with the wrong district_id). It is important to also look for empty spaces (`' '`). However as empty spaces are strings, it does not apply to the district_id column as the data type of this column is `int`._
 
 ```sql
 SELECT
