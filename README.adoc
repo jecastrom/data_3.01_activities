@@ -242,6 +242,19 @@ image::https://user-images.githubusercontent.com/63274055/149683797-79a54499-2dc
 
 == Return clients to `Strakonice`.
 
+`*_Answer:_*`
+
+```sql
+UPDATE
+    `client`
+SET
+    district_id = 20
+WHERE
+    district_id = 100;
+```
+
+image::https://user-images.githubusercontent.com/63274055/149820484-b394086c-b917-40f2-9fff-e6b617791495.png[width=600]
+
 
 
 ====
