@@ -199,11 +199,46 @@ image::https://user-images.githubusercontent.com/63274055/149675647-3b742c85-ac4
 
 _To spot clients with the wrong `district_id` we have to consider the following:_
 
-_In this database, there are no enforced relationships between the tables with foreign keys. In the `client` table, the `district_id` column is independent from the `A1` column on the `district` table which holds the district_id, so there is redundancy of data here. So the district_id´s are 77, from 1 to 77._
+_In this database, there are no enforced relationships between the tables with foreign keys. In the `client` table, the `district_id` column is independent from the `A1` column on the `district` table which holds the district_id, so there is redundancy of data here. So the district_id's are 77, from 1 to 77._
 _If there was a typo or an error on the client record, and the error lies from the range between 1 to 77, there is no way to spot the error._
 
-_However, is the error lies outside this range, we can spot the error with the following query:_
+_However, if the error lies outside this range (between 1 to 77), we can spot the error with the following query:_
 
+```sql
+SELECT
+    *
+FROM
+    client
+WHERE
+    district_id NOT IN (
+        SELECT
+            a1
+        FROM
+            district
+    );
+```
+
+image::https://user-images.githubusercontent.com/63274055/149683200-fcffbe23-7e4c-4cbd-bdbe-570e33225e6e.png[width=600]
+
+_If the district_id were a foreign key from A1, the update with a typo would have not occurred because of the foreign key constrains._
+
+_to check for `errors` and `null` values:_
+
+```sql
+SELECT
+    *
+FROM
+    client
+WHERE
+    district_id IS NULL
+    OR district_id NOT IN (
+        SELECT
+            a1
+        FROM
+            district
+    );
+```
+image::https://user-images.githubusercontent.com/63274055/149683797-79a54499-2dc5-47b7-840b-12fb300e91e7.png[width=600]
 
 == Return clients to `Strakonice`.
 

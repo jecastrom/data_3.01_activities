@@ -71,3 +71,28 @@ FROM
     bank.client
 WHERE
     district_id IS NULL;
+--
+SELECT
+    *
+FROM
+    client
+WHERE
+    district_id NOT IN (
+        SELECT
+            a1
+        FROM
+            district
+    );
+--
+SELECT
+    *
+FROM
+    client
+WHERE
+    district_id IS NULL
+    OR district_id NOT IN (
+        SELECT
+            a1
+        FROM
+            district
+    );
