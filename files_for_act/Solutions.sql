@@ -96,3 +96,16 @@ WHERE
         FROM
             district
     );
+--
+SELECT
+    a.client_id,
+    b.A3 AS region,
+    b.A2 AS district
+FROM
+    `client` a
+    INNER JOIN district b ON a.district_id = b.A1
+ORDER BY
+    2,
+    3
+LIMIT
+    10;

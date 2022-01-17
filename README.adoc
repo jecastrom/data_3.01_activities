@@ -284,10 +284,21 @@ image::https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/3.1
 `*_Answer:_*`
 
 ```sql
-
+SELECT
+    a.client_id,
+    b.A3 AS region,
+    b.A2 AS district
+FROM
+    `client` a
+    INNER JOIN district b ON a.district_id = b.A1
+ORDER BY
+    2,
+    3
+LIMIT
+    10;
 ```
 
-image::path[width=800]
+image::https://user-images.githubusercontent.com/63274055/149823122-45481c29-6c7f-4973-8dc5-af199a8531e1.png[width=600]
 
 == Count how many clients do we have per region and district
 
