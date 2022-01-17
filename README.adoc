@@ -306,11 +306,21 @@ image::https://user-images.githubusercontent.com/63274055/149823122-45481c29-6c7
 
 `*_Answer:_*`
 
+*_`Number of clients by region`_*
 ```sql
-
+SELECT
+    count(a.client_id) AS number_of_clients,
+    b.A3 AS region
+FROM
+    `client` a
+    INNER JOIN district b ON a.district_id = b.A1
+GROUP BY
+    2
+ORDER BY
+    1 DESC;
 ```
 
-image::path[width=800]
+image::https://user-images.githubusercontent.com/63274055/149829492-7fdbfb8e-3a6e-45b9-b70c-8615c17816ef.png[width=600]
 
 
 ====

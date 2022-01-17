@@ -109,3 +109,14 @@ ORDER BY
     3
 LIMIT
     10;
+--
+SELECT
+    count(a.client_id) AS number_of_clients,
+    b.A3 AS region
+FROM
+    `client` a
+    INNER JOIN district b ON a.district_id = b.A1
+GROUP BY
+    2
+ORDER BY
+    1 DESC;
