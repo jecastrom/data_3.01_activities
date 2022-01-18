@@ -289,9 +289,20 @@ image::https://user-images.githubusercontent.com/63274055/149820484-b394086c-b91
 `*_Answer:_*`
 
 [horizontal]
-CPU:: The brain of the computer.
-Hard drive:: Permanent storage for operating system and/or user files.
-RAM:: Temporarily stores information the CPU uses during operation.
+account - district:: one to one
+district - account:: one to many
+loan - account:: one to one 
+account - loan:: one to many
+client - district:: one to one
+district - client:: one to many
+trans - account:: one to one 
+account - trans:: one to many
+account - order:: one to many
+order - account:: one to many
+disp - card:: one to many
+card - disp:: many to one
+client - disp:: zero
+disp - client:: one to one
 
 
 
@@ -304,6 +315,10 @@ image::https://user-images.githubusercontent.com/63274055/150014789-a7f97603-bcb
 == Look at the ER diagram and identify PK and FK.
 
 image::https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/3.1-identify_PK_FK.png[width=200]
+
+`*_Answer:_*`
+
+Already answered in the previous question
 
 
 
