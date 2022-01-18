@@ -318,7 +318,7 @@ image::https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/3.1
 
 `*_Answer:_*`
 
-Already answered in the previous question
+Already answered in the previous question, see diagram
 
 
 
