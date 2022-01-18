@@ -286,6 +286,12 @@ image::https://user-images.githubusercontent.com/63274055/149820484-b394086c-b91
 
 == Identify relationship degrees in our database.
 
+`*_Answer:_*`
+
+
+
+image::https://user-images.githubusercontent.com/63274055/150014789-a7f97603-bcbc-4108-ad7a-c194a4064469.png[width=600]
+
 
 
 = Activity
