@@ -52,6 +52,8 @@ image::{image-url-ironhack}[width=70]
 
 {my-name}
 
+{rel-cont-url}[Related content: Lab 9 SQL Joins]
+
 
                                                      
 ====
