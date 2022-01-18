@@ -288,6 +288,11 @@ image::https://user-images.githubusercontent.com/63274055/149820484-b394086c-b91
 
 `*_Answer:_*`
 
+[horizontal]
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+
 
 
 image::https://user-images.githubusercontent.com/63274055/150014789-a7f97603-bcbc-4108-ad7a-c194a4064469.png[width=600]
