@@ -310,7 +310,7 @@ disp - client:: one to one
 
 image::https://user-images.githubusercontent.com/63274055/150014789-a7f97603-bcbc-4108-ad7a-c194a4064469.png[width=600]
 
-https://github.com/jecastrom/lab-sql-join/files/7895117/bank.EDR.pdf[Bank database EDR in pdf]
+https://github.com/jecastrom/data_3.01_activities/files/7895179/bank.EDR.pdf[Bank database EDR in pdf]
 
 
 = Activity
